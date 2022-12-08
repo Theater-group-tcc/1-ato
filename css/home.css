@@ -51,7 +51,7 @@ nav {
 
 .background-poster {
     height: 80vh;
-    background-image: url('/imgs/BANNER.jpg');
+    background-image: url('imgs/BANNER.jpg');
     background-size: cover;
     background-color: black;
     max-width: 100vw;
