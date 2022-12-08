@@ -92,27 +92,27 @@ nav {
 }
 
 .img-terror {
-    background-image: url(/imgs/tterror.jpg);
+    background-image: url(../imgs/tterror.jpg);
 }
 
 .img-acao {
-    background-image: url(/imgs/aaventura.jpg);
+    background-image: url(../imgs/aaventura.jpg);
 }
 
 .img-romance {
-    background-image: url(/imgs/RRomance.jpg);
+    background-image: url(../imgs/RRomance.jpg);
 }
 
 .img-Teatro-de-sombras {
-    background-image: url(/imgs/tteatroo.jpg);
+    background-image: url(../imgs/tteatroo.jpg);
 }
 
 .img-musical {
-    background-image: url(/imgs/mmmmmmmmmmmmmmmmmmmmusical.jpg);
+    background-image: url(../imgs/mmmmmmmmmmmmmmmmmmmmusical.jpg);
 }
 
 .img-infantil {
-    background-image: url(/imgs/iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii.jpg);
+    background-image: url(../imgs/iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii.jpg);
 }
 
 .Escrita {
@@ -129,7 +129,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/t1.jpg);
+    background-image: url(../imgs/t1.jpg);
     background-size: cover;
 }
 
@@ -137,7 +137,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/tterror.jpg);
+    background-image: url(../imgs/tterror.jpg);
     background-size: cover;
 }
 
@@ -145,7 +145,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/lua.jpg);
+    background-image: url(../imgs/lua.jpg);
     background-size: cover;
 }
 
@@ -153,7 +153,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/t3.jpg);
+    background-image: url(../imgs/t3.jpg);
     background-size: cover;
 }
 
@@ -161,7 +161,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/AA1.jpg);
+    background-image: url(../imgs/AA1.jpg);
     background-size: cover;
 }
 
@@ -169,7 +169,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/AA2.JPG);
+    background-image: url(../imgs/AA2.JPG);
     background-size: cover;
 }
 
@@ -177,7 +177,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/aaventura.jpg);
+    background-image: url(../imgs/aaventura.jpg);
     background-size: cover;
 }
 
@@ -185,7 +185,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/AA3.jpg);
+    background-image: url(../imgs/AA3.jpg);
     background-size: cover;
 }
 
@@ -193,7 +193,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/RR1.JPG);
+    background-image: url(../imgs/RR1.JPG);
     background-size: cover;
 }
 
@@ -201,7 +201,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/RR2.JPG);
+    background-image: url(../imgs/RR2.JPG);
     background-size: cover;
 }
 
@@ -209,7 +209,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/RR3.JPG);
+    background-image: url(../imgs/RR3.JPG);
     background-size: cover;
 }
 
@@ -217,7 +217,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/RRomance.jpg);
+    background-image: url(../imgs/RRomance.jpg);
     background-size: cover;
 }
 
@@ -225,7 +225,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/SS1.JPG);
+    background-image: url(../imgs/SS1.JPG);
     background-size: cover;
 }
 
@@ -233,7 +233,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/SS2.JPG);
+    background-image: url(../imgs/SS2.JPG);
     background-size: cover;
 }
 
@@ -241,7 +241,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/SS4.JPG);
+    background-image: url(../imgs/SS4.JPG);
     background-size: cover;
 }
 
@@ -249,7 +249,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/tteatroo.jpg);
+    background-image: url(../imgs/tteatroo.jpg);
     background-size: cover;
 }
 
@@ -257,7 +257,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/MM1.JPG);
+    background-image: url(../imgs/MM1.JPG);
     background-size: cover;
 }
 
@@ -265,7 +265,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/MM2.JPG);
+    background-image: url(../imgs/MM2.JPG);
     background-size: cover;
 }
 
@@ -273,7 +273,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/mmmmmmmmmmmmmmmmmmmmusical.jpg);
+    background-image: url(../imgs/mmmmmmmmmmmmmmmmmmmmusical.jpg);
     background-size: cover;
 }
 
@@ -281,7 +281,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/MM3.JPG);
+    background-image: url(../imgs/MM3.JPG);
     background-size: cover;
 }
 
@@ -289,7 +289,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/II1.JPG);
+    background-image: url(../imgs/II1.JPG);
     background-size: cover;
 }
 
@@ -297,7 +297,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/II2.JPG);
+    background-image: url(../imgs/II2.JPG);
     background-size: cover;
 }
 
@@ -305,7 +305,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/II3.JPG);
+    background-image: url(../imgs/II3.JPG);
     background-size: cover;
 }
 
@@ -313,7 +313,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(/imgs/iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii.jpg);
+    background-image: url(../imgs/iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii.jpg);
     background-size: cover;
 }
 

@@ -114,7 +114,7 @@ main {
     margin-top: 5rem;
 }
 .fotos {
-    background-image: url('/beta-project/imgs/gabriel-photo.jfif');
+    background-image: url('../beta-project/imgs/gabriel-photo.jfif');
 }
 
 .card-membro {
@@ -139,7 +139,7 @@ main {
 }   
 
 .gabriel {
-    background-image: url(/imgs/gabriel-photo.jfif);
+    background-image: url(../imgs/gabriel-photo.jfif);
     margin: 1rem 0;
     width: 90%;
     height: 75%;
@@ -149,7 +149,7 @@ main {
 }
 
 .lourival {
-    background-image: url(/imgs/a04697c2-5dee-48d6-9aa0-b80dab819e34.jpg);
+    background-image: url(../imgs/a04697c2-5dee-48d6-9aa0-b80dab819e34.jpg);
     margin: 1rem 0;
     width: 90%;
     height: 75%;
@@ -158,7 +158,7 @@ main {
 }
 
 .gustavo {
-    background-image: url(/imgs/23333333333333.jpeg);
+    background-image: url(../imgs/23333333333333.jpeg);
     margin: 1rem 0;
     width: 90%;
     height: 75%;
@@ -168,7 +168,7 @@ main {
 }
 
 .agatha {
-    background-image: url(/imgs/IMG_2240.PNG);
+    background-image: url(../imgs/IMG_2240.PNG);
     margin: 1rem 0;
     width: 90%;
     height: 75%;
@@ -178,7 +178,7 @@ main {
 }
 
 .alon {
-    background-image: url(/imgs/aloncio-photo.jpeg);
+    background-image: url(../imgs/aloncio-photo.jpeg);
     margin: 1rem 0;
     width: 90%;
     height: 75%;

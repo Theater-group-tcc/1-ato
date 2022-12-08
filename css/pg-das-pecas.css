@@ -51,7 +51,7 @@ nav {
 }
 
 .bkgd-poster-groups {
-    background-image: url('/imgs/t3.jpg');
+    background-image: url('../imgs/t3.jpg');
     width: 90%;
     margin: auto;
     color: #7b2018
