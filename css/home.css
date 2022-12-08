@@ -138,12 +138,13 @@ nav {
     }
 
     .background-poster {
-        background-image: url(../imgs/BANNER.jpg);
+        background-image: url(../imgs/step-up-banner.jpg);
         background-position: center;
     }
 
     .nossa-marca, .citacao {
         text-align: center;
+        margin: 5%;
     }
     .small-container,
     .small-container2 {
