@@ -51,10 +51,10 @@ nav {
 }
 
 .bkgd-poster-groups {
-    background-image: url('../imgs/t3.jpg');
+    background-image: url('../imgs/TUNEL.jpg');
     width: 90%;
     margin: auto;
-    color: #7b2018
+    color: #fff;
 }
 
 .background-poster>h1, .background-poster>a {
@@ -72,7 +72,7 @@ nav {
 .background-poster>a {
     margin-bottom: 4rem;
     text-decoration: none;
-    color: #7b2018;
+    color: #fff;
     font-size: 20pt;
 }
 
