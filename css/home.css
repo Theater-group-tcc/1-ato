@@ -73,7 +73,8 @@ nav {
     text-align: center;
 }
 
-.texto>h1, .texto>h2 {
+.texto>h1,
+.texto>h2 {
     text-justify: justify;
 }
 
@@ -142,10 +143,12 @@ nav {
         background-position: center;
     }
 
-    .nossa-marca, .citacao {
+    .nossa-marca,
+    .citacao {
         text-align: center;
         margin: 5%;
     }
+
     .small-container,
     .small-container2 {
         display: flex;

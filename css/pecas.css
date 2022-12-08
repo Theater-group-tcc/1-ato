@@ -69,7 +69,7 @@ nav {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    
+
     border-radius: 15px;
     margin-bottom: 10%;
 }
@@ -382,9 +382,10 @@ nav {
     color: #7B2018;
 }
 
-.card:hover, .Escrita:hover {
+.card:hover,
+.Escrita:hover {
     transform: scale3d(1.08, 1.08, 1);
-    
+
 }
 
 .card:hover {
@@ -414,8 +415,17 @@ nav {
 .categoria-header>h3 {
     max-width: 80vw;
 }
+.forms-header>p:first-of-type {
+    font-size: 16pt;
+}
 
-@media (max-width: 900px){
+.list-unstyled>li,
+.footer-col-title {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 900px) {
+
     .background-poster>h1,
     .background-poster>p,
     .description>p {
@@ -436,7 +446,7 @@ nav {
     .categoria-header {
         text-align: center;
         margin: 2em auto;
-        
+
     }
 
     .bloco {
@@ -458,3 +468,5 @@ nav {
     }
 
 }
+
+
