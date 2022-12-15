@@ -17,9 +17,16 @@ nav {
     max-width: 100vw;
 }
 
+.logo-space {
+    max-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navlogo {
     height: 100%;
-    width: 5vw;
+    width: 10vw;
 }
 
 .botao {
@@ -121,11 +128,11 @@ main {
 .card-membro {
     border-radius: 15px;
     width: 15%;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 4);
+    box-shadow: 5px 5px 10px #5a5a5a;
     transition: 0.3s;
 }
 
@@ -140,11 +147,12 @@ main {
 }
 
 .gabriel {
-    background-image: url(../imgs/gabriel-photo.jfif);
+    background-image: url(../imgs/gab-pict.jpeg);
     margin: 1rem 0;
     width: 90%;
     height: 75%;
-    border-radius: 100%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 23px #5a5a5a, -20px -20px 43px #ffffff;
     background-size: cover;
 
 }
@@ -154,36 +162,40 @@ main {
     margin: 1rem 0;
     width: 90%;
     height: 75%;
-    border-radius: 100%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 23px #5a5a5a, -20px -20px 43px #ffffff;
     background-size: cover;
 }
 
 .gustavo {
-    background-image: url(../imgs/23333333333333.jpeg);
+    background-image: url(../imgs/Gus-pict.jpeg);
     margin: 1rem 0;
     width: 90%;
     height: 75%;
-    border-radius: 100%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 23px #5a5a5a, -20px -20px 43px #ffffff;
     background-size: cover;
     background-position: center;
 }
 
 .agatha {
-    background-image: url(../imgs/IMG_2240.PNG);
+    background-image: url(../imgs/aga-pict.jpeg);
     margin: 1rem 0;
     width: 90%;
     height: 75%;
-    border-radius: 100%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 23px #5a5a5a, -20px -20px 43px #ffffff;
     background-size: cover;
     background-position: center;
 }
 
 .alon {
-    background-image: url(../imgs/aloncio-photo.jpeg);
+    background-image: url(../imgs/alon-pict.jpeg);
     margin: 1rem 0;
     width: 90%;
     height: 75%;
-    border-radius: 100%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 23px #5a5a5a, -20px -20px 43px #ffffff;
     background-size: cover;
     background-position: center;
 }

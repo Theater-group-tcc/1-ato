@@ -18,9 +18,16 @@ nav {
     max-width: 100vw;
 }
 
+.logo-space {
+    max-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navlogo {
     height: 100%;
-    width: 5vw;
+    width: 10vw;
 }
 
 .botao {

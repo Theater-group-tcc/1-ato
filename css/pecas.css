@@ -17,9 +17,16 @@ nav {
     max-width: 100vw;
 }
 
+.logo-space {
+    max-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navlogo {
     height: 100%;
-    width: 5vw;
+    width: 10vw;
 }
 
 .botao {
@@ -424,8 +431,26 @@ nav {
     margin-bottom: 1rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
+    .nav1 {
+        padding: 0;
+    }
+    
+     .logo-space {
+        max-height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    
+    .navlogo {
+        height: 100%;
+        width: 20vw;
+    }
+    
     .background-poster>h1,
     .background-poster>p,
     .description>p {
@@ -433,40 +458,59 @@ nav {
         margin: 5% auto;
     }
 
-    .pecas-cards {
+    .background-poster {
+        background-image: url(../imgs/step-up-banner.jpg);
+        background-position: center;
+    }
+
+    .nossa-marca,
+    .citacao {
+        text-align: center;
+        margin: 5%;
+    }
+
+    .colorido {
+        margin-top: 10%;
+    }
+
+    .colorido>h2 {
+        font-size: 20pt;
+    } 
+    
+    .colorido>p {
+        font-size: 16pt;;
+    }
+
+    .small-container,
+    .small-container2 {
+        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px;
+        margin-bottom: 10vh;
+    }
+
+    .small-container {
+        flex-direction: column-reverse;
     }
 
     .container>img {
         align-self: center;
     }
 
-    .categoria-header {
-        text-align: center;
-        margin: 2em auto;
-
+    .small-container>div>h1,
+    .small-container2>div>h1 {
+        margin-top: 20px;
     }
 
-    .bloco {
-        justify-content: center;
-        align-items: center;
+    .small-container>div>a,
+    .small-container2>div>a {
+        margin-bottom: 10%;
     }
 
-    .linha {
-        flex-direction: column;
-        width: 80%;
-        justify-content: center;
+    .img-container {
+        margin-top: 5%;
     }
-
-    .Escrita {
-        flex-direction: column;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
 }
 
 
