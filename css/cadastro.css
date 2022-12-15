@@ -166,6 +166,11 @@ label {
     margin: 10% auto;
 }
 
+.cadastro-left>p {
+
+    font-size: 18pt;
+}
+
 .cadastro-left > img {
     width: 300px;
 }
