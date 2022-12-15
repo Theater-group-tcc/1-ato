@@ -47,6 +47,59 @@ nav {
     margin-bottom: 3rem;
 }
 
+.popup-wrapper {
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    text-align: center;
+    width: 100%;
+    max-width: 70%;
+    margin: 10% auto;
+    padding: 30px;
+    background: white;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-content>h2 {
+    color: #7B2018;
+    font-weight: bold;
+}
+
+.popup-content>p {
+    font-size: 20pt;
+}
+
+.popup-content>img {
+    width: 50%;
+}
+
+#codigo {
+    font-size: 40pt;
+}
+
+#aviso {
+    font-size: 14pt;
+    color: gray;
+}
+
+.popup-close {
+    position:absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
 .titulo {
     width: 100vw;
     justify-content: center;
@@ -76,7 +129,6 @@ nav {
     margin: auto;
     display: flex;
     justify-content: space-between;
-
     border-radius: 15px;
     margin-bottom: 10%;
 }
@@ -99,27 +151,27 @@ nav {
 }
 
 .img-terror {
-    background-image: url(../imgs/tterror.jpg);
+    background-image: url(../imgs/TERROR/Memento-Mori-1.jpg);
 }
 
 .img-acao {
-    background-image: url(../imgs/aaventura.jpg);
+    background-image: url(../imgs/AVENTURA/CAPA-DE-CATEGORIA-AVENTURA.jpg);
 }
 
 .img-romance {
-    background-image: url(../imgs/RRomance.jpg);
+    background-image: url(../imgs/ROMANCE/CAPA.jpg);
 }
 
 .img-Teatro-de-sombras {
-    background-image: url(../imgs/tteatroo.jpg);
+    background-image: url(../imgs/TEATRO-DE-SOMBRAS/CAPA-DE-CATEGORIA-SOMBRAS.jpg);
 }
 
 .img-musical {
-    background-image: url(../imgs/mmmmmmmmmmmmmmmmmmmmusical.jpg);
+    background-image: url(../imgs/MUSICAL/CAPA-DA-CATEGORIA-MUSICAL.jpg);
 }
 
 .img-infantil {
-    background-image: url(../imgs/iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii.jpg);
+    background-image: url(../imgs/INFANTIL/CAPA-DA-CATEGORIA-INFATIL.jpg);
 }
 
 .Escrita {
@@ -136,7 +188,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/t1.jpg);
+    background-image: url(../imgs/TERROR/15362634335b9185098daae_1536263433_3x2_rt.jpg);
     background-size: cover;
 }
 
@@ -144,7 +196,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/tterror.jpg);
+    background-image: url(../imgs/TERROR/5mtgwurj11_ayj541zyg_file.jpeg);
     background-size: cover;
 }
 
@@ -152,7 +204,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/lua.jpg);
+    background-image: url(../imgs/TERROR/663428.png);
     background-size: cover;
 }
 
@@ -160,7 +212,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/t3.jpg);
+    background-image: url(../imgs/TERROR/Memento-Mori-1.jpg);
     background-size: cover;
 }
 
@@ -168,7 +220,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/AA1.jpg);
+    background-image: url(../imgs/AVENTURA/120034176_344494973630839_7959289047485232083_n-e1633630940331.jpg);
     background-size: cover;
 }
 
@@ -176,7 +228,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/AA2.JPG);
+    background-image: url(../imgs/AVENTURA/15925941645eed0ef4a4e28_1592594164_3x2_md.jpg);
     background-size: cover;
 }
 
@@ -184,7 +236,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/aaventura.jpg);
+    background-image: url(../imgs/AVENTURA/CMN_Garrafa_Enforcada-3033.jpg);
     background-size: cover;
 }
 
@@ -192,7 +244,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/AA3.JPG);
+    background-image: url(../imgs/AVENTURA/Cinderela-Foto-de-Guto-Muniz.jpg);
     background-size: cover;
 }
 
@@ -200,7 +252,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/RR1.JPG);
+    background-image: url(../imgs/ROMANCE/317845604_2289479591208583_1608039963957022624_n.jpg);
     background-size: cover;
 }
 
@@ -208,7 +260,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/RR2.JPG);
+    background-image: url(../imgs/ROMANCE/casal-recem-casado-romantico-abracando-cara-a-cara-contra-um-fundo-escuro-iluminado-com-brilhos-brilhantes-ao-redor_132075-6134.jpg);
     background-size: cover;
 }
 
@@ -216,7 +268,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/RR3.JPG);
+    background-image: url(../imgs/ROMANCE/GettyImages-1418055224.jpg);
     background-size: cover;
 }
 
@@ -224,7 +276,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/RRomance.jpg);
+    background-image: url(../imgs/ROMANCE/CAPA.jpg);
     background-size: cover;
 }
 
@@ -232,7 +284,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/SS1.JPG);
+    background-image: url(../imgs/TEATRO-DE-SOMBRAS/kyle-head-p6rNTdAPbuk-unsplash.jpg);
     background-size: cover;
 }
 
@@ -240,7 +292,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/SS2_2.jpg);
+    background-image: url(../imgs/TEATRO-DE-SOMBRAS/lenda-chinesa-sobre-a-origem-do-teatro-de-sombras.jpg);
     background-size: cover;
 }
 
@@ -248,7 +300,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/SS4.JPG);
+    background-image: url(../imgs/TEATRO-DE-SOMBRAS/Teatro-de-Sombras-4º-ano-scaled-e1591286102862-1024x1024.jpg);
     background-size: cover;
 }
 
@@ -256,7 +308,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/tteatroo.jpg);
+    background-image: url(../imgs/TEATRO-DE-SOMBRAS/teatro-de-sombras-divulgacao.jpg);
     background-size: cover;
 }
 
@@ -264,7 +316,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/MM1.JPG);
+    background-image: url(../imgs/MUSICAL/288958000_2143800652443145_742505778293388384_n.jpg);
     background-size: cover;
 }
 
@@ -272,15 +324,16 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/MM2.JPG);
+    background-image: url(../imgs/MUSICAL/vince-fleming-EyhSiYAErn8-unsplash.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .card-header19 {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/mmmmmmmmmmmmmmmmmmmmusical.jpg);
+    background-image: url(../imgs/MUSICAL/kazuo-ota-546J1ry_yGM-unsplash.jpg);
     background-size: cover;
 }
 
@@ -288,7 +341,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/MM3.JPG);
+    background-image: url(../imgs/MUSICAL/_PB41130_WEB.jpg);
     background-size: cover;
 }
 
@@ -312,7 +365,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/II3.JPG);
+    background-image: url(../imgs/INFANTIL/istockphoto-500967294-612x612.jpg);
     background-size: cover;
 }
 
@@ -320,7 +373,7 @@ nav {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-image: url(../imgs/iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii.jpg);
+    background-image: url(../imgs/INFANTIL/teatro-de-fantoches.jpg);
     background-size: cover;
 }
 
@@ -444,11 +497,13 @@ nav {
         justify-content: center;
     }
     
-
-    
     .navlogo {
         height: 100%;
         width: 20vw;
+    }
+
+    .popup-content>img {
+        width: 80%;
     }
     
     .background-poster>h1,
@@ -510,6 +565,12 @@ nav {
 
     .img-container {
         margin-top: 5%;
+    }
+
+    .linha, .pecas-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 

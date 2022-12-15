@@ -14,4 +14,4 @@ popup.addEventListener('click', event => {
 if (shouldClosepopup) {
   popup.style.display ='none'
 }
-})
+});

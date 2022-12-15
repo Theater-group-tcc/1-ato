@@ -210,6 +210,23 @@ main {
 }
 
 @media (max-width: 900px) {
+
+    .nav1 {
+        padding: 0;
+    }
+    
+     .logo-space {
+        max-height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navlogo {
+        height: 100%;
+        width: 20vw;
+    }
+
     .historia {
         flex-direction: column;
         height: 300vh;
@@ -230,6 +247,7 @@ main {
     .card-membro {
         width: 50%;
         margin-top: 10%;
+        margin-bottom: 10%;
     }
 
     footer {

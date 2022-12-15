@@ -116,9 +116,30 @@ nav {
 
 @media (max-width: 700px) {
 
+    .nav1 {
+        padding: 0;
+    }
+    
+     .logo-space {
+        max-height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navlogo {
+        height: 100%;
+        width: 20vw;
+    }
+
     .nossa-marca,
     .citacao {
         text-align: center;
+    }
+
+    .big-container {
+        box-shadow: none;
+        padding: 5%;
     }
 
     .small-container,

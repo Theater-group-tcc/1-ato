@@ -179,6 +179,15 @@ label {
     color: #40a777;
 }
 
+.forms-header>p:first-of-type {
+    font-size: 16pt;
+}
+
+.list-unstyled>li,
+.footer-col-title {
+    margin-bottom: 1rem;
+}
+
 @media only screen and (max-width: 950px) {
     .cadastro-card, .login-card {
         width: 85%;
@@ -186,9 +195,26 @@ label {
 }
 
 @media only screen and (max-width: 900px) {
+
+    .nav1 {
+        padding: 0;
+    }
+    
+     .logo-space {
+        max-height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navlogo {
+        height: 100%;
+        width: 20vw;
+    }
     
     main {
         flex-direction: column;
+        margin-bottom: 50vh;
         /*align-items: center;*/
     }
 

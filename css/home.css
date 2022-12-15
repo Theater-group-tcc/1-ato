@@ -197,7 +197,7 @@ nav {
         margin-bottom: 10vh;
     }
 
-    .small-container {
+    .small-container, .sm3 {
         flex-direction: column-reverse;
     }
 
