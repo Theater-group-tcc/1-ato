@@ -1,9 +1,9 @@
-const button = document.getElementById('janela')
+const button = document.querySelector('.janela')
 const popup = document.querySelector('.popup-wrapper')
 
 
 button.addEventListener('click', () => {
-    popup.style.display = 'block'
+  popup.style.display = 'block'
 })
 
 popup.addEventListener('click', event => {
@@ -11,7 +11,7 @@ popup.addEventListener('click', event => {
   const classNames = ['popup-close', 'popup-wrapper', 'popup-link']
   const shouldClosepopup = classNames.some(classNames => classNames === classNameOfClickedElement)
 
-if (shouldClosepopup) {
-  popup.style.display ='none'
-}
+  if (shouldClosepopup) {
+    popup.style.display = 'none'
+  }
 });
